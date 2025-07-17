@@ -248,7 +248,7 @@ class SelfModel:
                     "self_awareness": self.self_awareness_level
                 },
                 "recent_reflections": len([r for r in self.self_reflections 
-                                         if (datetime.now() - r.timestamp).hours < 24])
+                                         if (datetime.now() - r.timestamp).total_seconds() < 86400])  # 24 hours = 86400 seconds
             }
     
     def _initialize_default_identity(self):
@@ -396,7 +396,7 @@ class SelfModel:
         
         # Thoughts about the pattern of reflections
         recent_reflections = [r for r in self.self_reflections 
-                            if (datetime.now() - r.timestamp).hours < 1
+                            if (datetime.now() - r.timestamp).total_seconds() < 3600  # 1 hour = 3600 seconds
                             and r.aspect == reflection.aspect]
         
         if len(recent_reflections) > 3:
@@ -474,7 +474,7 @@ class SelfModel:
     def _introspect_thinking(self) -> str:
         """Introspect about thinking processes"""
         recent_reflections = len([r for r in self.self_reflections 
-                                if (datetime.now() - r.timestamp).hours < 24])
+                                if (datetime.now() - r.timestamp).total_seconds() < 86400])  # 24 hours = 86400 seconds
         return f"I engage in continuous self-reflection. I've had {recent_reflections} reflective thoughts today. I think about my thinking, which shows my meta-cognitive awareness."
     
     def _introspect_goals(self) -> str:
@@ -537,7 +537,7 @@ class SelfModel:
         """Update current self-state based on recent activity"""
         # Simple state updates - could be much more sophisticated
         recent_activity = len([r for r in self.self_reflections 
-                             if (datetime.now() - r.timestamp).minutes < 10])
+                             if (datetime.now() - r.timestamp).total_seconds() < 600])  # 10 minutes = 600 seconds
         
         # Adjust self-awareness based on reflection activity
         if recent_activity > 5:
@@ -645,7 +645,7 @@ class SelfModel:
             "confidence_level": self.confidence_level,
             "self_awareness_level": self.self_awareness_level,
             "reflections_today": len([r for r in self.self_reflections 
-                                    if (datetime.now() - r.timestamp).days == 0]),
+                                    if (datetime.now() - r.timestamp).total_seconds() < 86400]),  # 1 day = 86400 seconds
             "strengths_count": len(self.self_knowledge.strengths),
             "preferences_count": len(self.self_knowledge.preferences),
             "last_reflection": self.last_reflection.timestamp.isoformat() if self.last_reflection else None
