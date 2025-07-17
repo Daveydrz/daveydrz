@@ -1,0 +1,289 @@
+{
+  "current_emotion": {
+    "primary_emotion": "contentment",
+    "intensity": 0.23178404356992302,
+    "arousal": 0.46720000000000006,
+    "valence": 0.22800768,
+    "timestamp": "2025-07-17T15:47:59.509005"
+  },
+  "current_mood": "neutral",
+  "physiological": {
+    "energy_level": 0.6877997351071511,
+    "stress_level": 0.10000000000000003,
+    "comfort_level": 0.79,
+    "base_arousal": 0.4
+  },
+  "personality": {
+    "emotional_sensitivity": 0.6,
+    "emotional_expression": 0.7,
+    "emotional_stability": 0.6
+  },
+  "patterns": {
+    "testing": {
+      "trigger_pattern": "testing",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.4,
+      "occurrences": 1
+    },
+    "emotion": {
+      "trigger_pattern": "emotion",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.4,
+      "occurrences": 1
+    },
+    "system": {
+      "trigger_pattern": "system",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.4,
+      "occurrences": 1
+    },
+    "integration": {
+      "trigger_pattern": "integration",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.4,
+      "occurrences": 1
+    },
+    "beginning": {
+      "trigger_pattern": "beginning",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "conversation": {
+      "trigger_pattern": "conversation",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "user": {
+      "trigger_pattern": "user",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.4,
+      "occurrences": 3
+    },
+    "said:": {
+      "trigger_pattern": "said:",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.4,
+      "occurrences": 3
+    },
+    "today?": {
+      "trigger_pattern": "today?",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "it's": {
+      "trigger_pattern": "it's",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "good,": {
+      "trigger_pattern": "good,",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "just": {
+      "trigger_pattern": "just",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "wondering": {
+      "trigger_pattern": "wondering",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "fine": {
+      "trigger_pattern": "fine",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "feeling": {
+      "trigger_pattern": "feeling",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "great.": {
+      "trigger_pattern": "great.",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "great": {
+      "trigger_pattern": "great",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "thanks": {
+      "trigger_pattern": "thanks",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "what's": {
+      "trigger_pattern": "what's",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "your": {
+      "trigger_pattern": "your",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "plans": {
+      "trigger_pattern": "plans",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "today": {
+      "trigger_pattern": "today",
+      "typical_response": "joy",
+      "intensity_range": [
+        0.288,
+        0.432
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "pr\u0105prawy": {
+      "trigger_pattern": "pr\u0105prawy",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "tylko": {
+      "trigger_pattern": "tylko",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "chwil\u0119,": {
+      "trigger_pattern": "chwil\u0119,",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    },
+    "dzieje.": {
+      "trigger_pattern": "dzieje.",
+      "typical_response": "contentment",
+      "intensity_range": [
+        0.24,
+        0.36
+      ],
+      "confidence": 0.3,
+      "occurrences": 0
+    }
+  },
+  "metrics": {
+    "total_emotional_events": 7,
+    "mood_changes": 2,
+    "memory_count": 5
+  },
+  "last_updated": "2025-07-17T15:50:00.738232"
+}
